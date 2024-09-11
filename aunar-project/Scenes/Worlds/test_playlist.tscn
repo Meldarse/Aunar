@@ -1,0 +1,27 @@
+[gd_scene load_steps=7 format=3 uid="uid://uietqxb8a5l1"]
+
+[ext_resource type="AudioStream" uid="uid://bry62d85jaw3t" path="res://Assets/OST/Menu/music_00.ogg" id="1_tfxca"]
+[ext_resource type="AudioStream" uid="uid://djgttqherj7q4" path="res://Assets/OST/Menu/music_01.ogg" id="2_a00bb"]
+[ext_resource type="AudioStream" uid="uid://2w2k47xckemr" path="res://Assets/OST/Menu/music_02.ogg" id="3_whfo7"]
+[ext_resource type="AudioStream" uid="uid://cvhfb1wjd5efc" path="res://Assets/OST/Menu/music_03.ogg" id="4_o0chx"]
+[ext_resource type="AudioStream" uid="uid://y3101hbiw385" path="res://Assets/OST/Menu/music_04.ogg" id="5_otveo"]
+
+[sub_resource type="AudioStreamPlaylist" id="AudioStreamPlaylist_1hr2i"]
+stream_count = 5
+stream_0 = ExtResource("1_tfxca")
+stream_1 = ExtResource("2_a00bb")
+stream_2 = ExtResource("3_whfo7")
+stream_3 = ExtResource("4_o0chx")
+stream_4 = ExtResource("5_otveo")
+
+[node name="Test_playlist" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = SubResource("AudioStreamPlaylist_1hr2i")
+autoplay = true

@@ -233,12 +233,12 @@ max_value = 1.0
 step = 0.1
 value = 0.4
 
-[node name="Label" type="Label" parent="."]
+[node name="Label" type="Label" parent="VSlider"]
 layout_mode = 0
-offset_left = 1029.0
-offset_top = 591.0
-offset_right = 1096.0
-offset_bottom = 614.0
+offset_left = 60.0
+offset_top = 499.0
+offset_right = 127.0
+offset_bottom = 522.0
 text = "VOLUME"
 
 [node name="Label2" type="Label" parent="."]

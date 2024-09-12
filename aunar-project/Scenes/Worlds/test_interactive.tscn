@@ -1,18 +1,18 @@
-[gd_scene load_steps=2 format=3 uid="uid://cfk8uy0rppjjx"]
+[gd_scene load_steps=3 format=3 uid="uid://cfk8uy0rppjjx"]
+
+[sub_resource type="AudioStreamSynchronized" id="AudioStreamSynchronized_qlaf0"]
 
 [sub_resource type="AudioStreamInteractive" id="AudioStreamInteractive_jgodg"]
-clip_count = 5
-clip_0/name = &"00"
-clip_0/auto_advance = 1
-clip_0/next_clip = 1
-clip_1/name = &"01"
+clip_count = 4
+clip_0/name = &"01"
+clip_0/stream = SubResource("AudioStreamSynchronized_qlaf0")
+clip_0/auto_advance = 0
+clip_1/name = &"02"
 clip_1/auto_advance = 0
-clip_2/name = &"02"
+clip_2/name = &"03"
 clip_2/auto_advance = 0
-clip_3/name = &"03"
+clip_3/name = &"04"
 clip_3/auto_advance = 0
-clip_4/name = &"04"
-clip_4/auto_advance = 0
 
 [node name="Test_interactive" type="Control"]
 layout_mode = 3

@@ -1,6 +1,7 @@
 extends Control
 
 var pause_position: float = 0.0
+var bus_index: int
 
 @onready var layers = [%layer_0, %layer_1, %layer_2, %layer_3, %layer_4, %layer_5,
 					   %layer_6, %layer_7, %layer_8, %layer_9, %layer_10,
@@ -13,8 +14,16 @@ func _ready() -> void:
 		audio.stream.set_sync_stream_volume(i, -60.0)
 		set_red_modulation(layers[i])
 
+	bus_index = AudioServer.get_bus_index("Master")
+	_on_v_slider_value_changed(0.4)
+
 	print(audio.stream.get_stream_count())
 	print(audio.stream.get_sync_stream_volume(0))
+
+
+func _on_v_slider_value_changed(value: float) -> void:
+	AudioServer.set_bus_volume_db(bus_index, linear_to_db(value))
+
 
 func set_red_modulation(node):
 	node.modulate = Color.RED
@@ -124,3 +133,7 @@ func _on_stop_button_down() -> void:
 
 func _on_close_pressed() -> void:
 	get_tree().quit()
+
+
+func _on_next_button_down() -> void:
+	get_tree().change_scene_to_file("res://Scenes/Worlds/test_synchronized_2.tscn")

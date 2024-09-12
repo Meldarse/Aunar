@@ -1,76 +1,79 @@
-[gd_scene load_steps=22 format=3 uid="uid://dd4ss3hf3gv41"]
+[gd_scene load_steps=23 format=3 uid="uid://dd4ss3hf3gv41"]
 
-[ext_resource type="Script" path="res://Scripts/Worlds/test_synchronized.gd" id="1_4pt01"]
-[ext_resource type="AudioStream" uid="uid://nghxk0jdfole" path="res://Assets/OST/APZX_CyberMower/01_Kick.wav" id="1_6ysoj"]
-[ext_resource type="AudioStream" uid="uid://e4gb61brkrsw" path="res://Assets/OST/APZX_CyberMower/02_Snare.wav" id="2_uqkvf"]
-[ext_resource type="AudioStream" uid="uid://cwilkyprjn11w" path="res://Assets/OST/APZX_CyberMower/11_Synth3.wav" id="3_mu3yo"]
-[ext_resource type="AudioStream" uid="uid://bn107cabmx5ou" path="res://Assets/OST/APZX_CyberMower/12_Synth4.wav" id="4_cvw2k"]
-[ext_resource type="AudioStream" uid="uid://mb83j6yuelwg" path="res://Assets/OST/APZX_CyberMower/13_Synth5.wav" id="5_coy4b"]
-[ext_resource type="AudioStream" uid="uid://w3300725ugg0" path="res://Assets/OST/APZX_CyberMower/14_Synth6.wav" id="6_dw2pr"]
-[ext_resource type="AudioStream" uid="uid://3wrh5sgpkd74" path="res://Assets/OST/APZX_CyberMower/15_Synth7.wav" id="7_u8m1p"]
-[ext_resource type="AudioStream" uid="uid://ddqk2jwn88mke" path="res://Assets/OST/APZX_CyberMower/16_Synth8.wav" id="8_qo04w"]
-[ext_resource type="AudioStream" uid="uid://cdgl72jtca4w7" path="res://Assets/OST/APZX_CyberMower/17_SFX.wav" id="9_qw5mr"]
-[ext_resource type="AudioStream" uid="uid://knpxrwg1nj1" path="res://Assets/OST/APZX_CyberMower/03_HiHat.wav" id="10_qa1oa"]
-[ext_resource type="AudioStream" uid="uid://uaa8dr7siy0p" path="res://Assets/OST/APZX_CyberMower/04_Shaker.wav" id="11_b32fw"]
-[ext_resource type="AudioStream" uid="uid://dotveve5fbdtb" path="res://Assets/OST/APZX_CyberMower/05_Percussion1.wav" id="12_g1yu6"]
-[ext_resource type="AudioStream" uid="uid://cy17ek8jyiyqe" path="res://Assets/OST/APZX_CyberMower/06_Percussion2.wav" id="13_l8ucv"]
-[ext_resource type="AudioStream" uid="uid://w58unamavm41" path="res://Assets/OST/APZX_CyberMower/07_Percussion3.wav" id="14_643ld"]
-[ext_resource type="AudioStream" uid="uid://j6ec1yvw8ebe" path="res://Assets/OST/APZX_CyberMower/08_Bass.wav" id="15_l347y"]
-[ext_resource type="AudioStream" uid="uid://csa0ih25lm4o0" path="res://Assets/OST/APZX_CyberMower/09_Synth1.wav" id="16_w6mkr"]
-[ext_resource type="AudioStream" uid="uid://h462gx2ttm2e" path="res://Assets/OST/APZX_CyberMower/10_Synth2.wav" id="17_5gkyt"]
+[ext_resource type="Script" path="res://Scripts/Worlds/test_synchronized_1.gd" id="1_y1k7x"]
+[ext_resource type="AudioStream" uid="uid://nghxk0jdfole" path="res://Assets/OST/APZX_CyberMower/01_Kick.wav" id="2_4r5nl"]
+[ext_resource type="AudioStream" uid="uid://e4gb61brkrsw" path="res://Assets/OST/APZX_CyberMower/02_Snare.wav" id="3_xxrch"]
+[ext_resource type="AudioStream" uid="uid://cwilkyprjn11w" path="res://Assets/OST/APZX_CyberMower/11_Synth3.wav" id="4_biata"]
+[ext_resource type="AudioStream" uid="uid://bn107cabmx5ou" path="res://Assets/OST/APZX_CyberMower/12_Synth4.wav" id="5_nxx75"]
+[ext_resource type="AudioStream" uid="uid://mb83j6yuelwg" path="res://Assets/OST/APZX_CyberMower/13_Synth5.wav" id="6_kf7b8"]
+[ext_resource type="AudioStream" uid="uid://w3300725ugg0" path="res://Assets/OST/APZX_CyberMower/14_Synth6.wav" id="7_r76ly"]
+[ext_resource type="AudioStream" uid="uid://3wrh5sgpkd74" path="res://Assets/OST/APZX_CyberMower/15_Synth7.wav" id="8_a4ldg"]
+[ext_resource type="AudioStream" uid="uid://ddqk2jwn88mke" path="res://Assets/OST/APZX_CyberMower/16_Synth8.wav" id="9_0flju"]
+[ext_resource type="AudioStream" uid="uid://cdgl72jtca4w7" path="res://Assets/OST/APZX_CyberMower/17_SFX.wav" id="10_fhv7o"]
+[ext_resource type="AudioStream" uid="uid://knpxrwg1nj1" path="res://Assets/OST/APZX_CyberMower/03_HiHat.wav" id="11_3ysaw"]
+[ext_resource type="AudioStream" uid="uid://uaa8dr7siy0p" path="res://Assets/OST/APZX_CyberMower/04_Shaker.wav" id="12_slqvd"]
+[ext_resource type="AudioStream" uid="uid://dotveve5fbdtb" path="res://Assets/OST/APZX_CyberMower/05_Percussion1.wav" id="13_mnwf2"]
+[ext_resource type="AudioStream" uid="uid://cy17ek8jyiyqe" path="res://Assets/OST/APZX_CyberMower/06_Percussion2.wav" id="14_nqyg0"]
+[ext_resource type="AudioStream" uid="uid://w58unamavm41" path="res://Assets/OST/APZX_CyberMower/07_Percussion3.wav" id="15_7iann"]
+[ext_resource type="AudioStream" uid="uid://j6ec1yvw8ebe" path="res://Assets/OST/APZX_CyberMower/08_Bass.wav" id="16_rlyjx"]
+[ext_resource type="AudioStream" uid="uid://csa0ih25lm4o0" path="res://Assets/OST/APZX_CyberMower/09_Synth1.wav" id="17_kuyuw"]
+[ext_resource type="AudioStream" uid="uid://h462gx2ttm2e" path="res://Assets/OST/APZX_CyberMower/10_Synth2.wav" id="18_3yxl8"]
 
 [sub_resource type="AudioStreamSynchronized" id="AudioStreamSynchronized_rywou"]
 stream_count = 18
-stream_0/stream = ExtResource("1_6ysoj")
+stream_0/stream = ExtResource("2_4r5nl")
 stream_0/volume = 0.0
-stream_1/stream = ExtResource("2_uqkvf")
+stream_1/stream = ExtResource("3_xxrch")
 stream_1/volume = 0.0
-stream_2/stream = ExtResource("10_qa1oa")
+stream_2/stream = ExtResource("11_3ysaw")
 stream_2/volume = 0.0
-stream_3/stream = ExtResource("11_b32fw")
+stream_3/stream = ExtResource("12_slqvd")
 stream_3/volume = 0.0
-stream_4/stream = ExtResource("12_g1yu6")
+stream_4/stream = ExtResource("13_mnwf2")
 stream_4/volume = 0.0
-stream_5/stream = ExtResource("13_l8ucv")
+stream_5/stream = ExtResource("14_nqyg0")
 stream_5/volume = 0.0
-stream_6/stream = ExtResource("14_643ld")
+stream_6/stream = ExtResource("15_7iann")
 stream_6/volume = 0.0
-stream_7/stream = ExtResource("15_l347y")
+stream_7/stream = ExtResource("16_rlyjx")
 stream_7/volume = 0.0
-stream_8/stream = ExtResource("16_w6mkr")
+stream_8/stream = ExtResource("17_kuyuw")
 stream_8/volume = 0.0
-stream_9/stream = ExtResource("17_5gkyt")
+stream_9/stream = ExtResource("18_3yxl8")
 stream_9/volume = 0.0
-stream_10/stream = ExtResource("3_mu3yo")
+stream_10/stream = ExtResource("4_biata")
 stream_10/volume = 0.0
 stream_11/volume = 0.0
-stream_12/stream = ExtResource("4_cvw2k")
+stream_12/stream = ExtResource("5_nxx75")
 stream_12/volume = 0.0
-stream_13/stream = ExtResource("5_coy4b")
+stream_13/stream = ExtResource("6_kf7b8")
 stream_13/volume = 0.0
-stream_14/stream = ExtResource("6_dw2pr")
+stream_14/stream = ExtResource("7_r76ly")
 stream_14/volume = 0.0
-stream_15/stream = ExtResource("7_u8m1p")
+stream_15/stream = ExtResource("8_a4ldg")
 stream_15/volume = 0.0
-stream_16/stream = ExtResource("8_qo04w")
+stream_16/stream = ExtResource("9_0flju")
 stream_16/volume = 0.0
-stream_17/stream = ExtResource("9_qw5mr")
+stream_17/stream = ExtResource("10_fhv7o")
 stream_17/volume = 0.0
 
-[sub_resource type="SystemFont" id="SystemFont_h2g43"]
+[sub_resource type="SystemFont" id="SystemFont_2lsqf"]
 
 [sub_resource type="Theme" id="Theme_72kdw"]
-default_font = SubResource("SystemFont_h2g43")
+default_font = SubResource("SystemFont_2lsqf")
 default_font_size = 25
 
-[node name="Test_synchronized" type="Control"]
+[sub_resource type="LabelSettings" id="LabelSettings_8fyqb"]
+font_size = 30
+
+[node name="Test_synchronized_1" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_4pt01")
+script = ExtResource("1_y1k7x")
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = SubResource("AudioStreamSynchronized_rywou")
@@ -214,6 +217,49 @@ layout_mode = 2
 theme = SubResource("Theme_72kdw")
 text = "CLOSE"
 
+[node name="VSlider" type="VSlider" parent="."]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -183.0
+offset_top = -232.0
+offset_bottom = 232.0
+grow_horizontal = 0
+grow_vertical = 2
+max_value = 1.0
+step = 0.1
+value = 0.4
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 1029.0
+offset_top = 591.0
+offset_right = 1096.0
+offset_bottom = 614.0
+text = "VOLUME"
+
+[node name="Label2" type="Label" parent="."]
+layout_mode = 0
+offset_left = 56.0
+offset_top = 91.0
+offset_right = 218.0
+offset_bottom = 219.0
+text = "Volumen de cada 
+capa de audio"
+label_settings = SubResource("LabelSettings_8fyqb")
+
+[node name="next" type="Button" parent="."]
+layout_mode = 2
+offset_left = 56.0
+offset_top = 224.0
+offset_right = 127.0
+offset_bottom = 267.0
+theme = SubResource("Theme_72kdw")
+text = "NEXT"
+
 [connection signal="button_down" from="GridContainer/layer_0" to="." method="_on_layer_0_button_down"]
 [connection signal="button_down" from="GridContainer/layer_1" to="." method="_on_layer_1_button_down"]
 [connection signal="button_down" from="GridContainer/layer_2" to="." method="_on_layer_2_button_down"]
@@ -236,3 +282,5 @@ text = "CLOSE"
 [connection signal="button_down" from="GridContainer2/pause" to="." method="_on_pause_button_down"]
 [connection signal="button_down" from="GridContainer2/stop" to="." method="_on_stop_button_down"]
 [connection signal="pressed" from="GridContainer2/close" to="." method="_on_close_pressed"]
+[connection signal="value_changed" from="VSlider" to="." method="_on_v_slider_value_changed"]
+[connection signal="button_down" from="next" to="." method="_on_next_button_down"]

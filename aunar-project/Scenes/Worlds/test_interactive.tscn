@@ -1,16 +1,11 @@
-[gd_scene load_steps=4 format=3 uid="uid://cfk8uy0rppjjx"]
-
-[ext_resource type="AudioStream" uid="uid://nghxk0jdfole" path="res://Assets/OST/APZX_CyberMower/01_Kick.wav" id="1_ou052"]
-[ext_resource type="AudioStream" uid="uid://e4gb61brkrsw" path="res://Assets/OST/APZX_CyberMower/02_Snare.wav" id="2_8l620"]
+[gd_scene load_steps=2 format=3 uid="uid://cfk8uy0rppjjx"]
 
 [sub_resource type="AudioStreamInteractive" id="AudioStreamInteractive_jgodg"]
 clip_count = 5
 clip_0/name = &"00"
-clip_0/stream = ExtResource("1_ou052")
 clip_0/auto_advance = 1
 clip_0/next_clip = 1
 clip_1/name = &"01"
-clip_1/stream = ExtResource("2_8l620")
 clip_1/auto_advance = 0
 clip_2/name = &"02"
 clip_2/auto_advance = 0
@@ -29,4 +24,3 @@ grow_vertical = 2
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = SubResource("AudioStreamInteractive_jgodg")
-autoplay = true

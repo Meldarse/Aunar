@@ -1,0 +1,301 @@
+[gd_scene load_steps=24 format=3 uid="uid://cmja4bq11mys"]
+
+[ext_resource type="Script" path="res://Scripts/Worlds/test_synchronized_2.gd" id="1_era1x"]
+[ext_resource type="AudioStream" uid="uid://nghxk0jdfole" path="res://Assets/OST/APZX_CyberMower/01_Kick.wav" id="2_hvlae"]
+[ext_resource type="AudioStream" uid="uid://e4gb61brkrsw" path="res://Assets/OST/APZX_CyberMower/02_Snare.wav" id="3_i2qv8"]
+[ext_resource type="AudioStream" uid="uid://cwilkyprjn11w" path="res://Assets/OST/APZX_CyberMower/11_Synth3.wav" id="4_drhjo"]
+[ext_resource type="AudioStream" uid="uid://bn107cabmx5ou" path="res://Assets/OST/APZX_CyberMower/12_Synth4.wav" id="5_nigcr"]
+[ext_resource type="AudioStream" uid="uid://mb83j6yuelwg" path="res://Assets/OST/APZX_CyberMower/13_Synth5.wav" id="6_e5ygq"]
+[ext_resource type="AudioStream" uid="uid://w3300725ugg0" path="res://Assets/OST/APZX_CyberMower/14_Synth6.wav" id="7_30ml0"]
+[ext_resource type="AudioStream" uid="uid://3wrh5sgpkd74" path="res://Assets/OST/APZX_CyberMower/15_Synth7.wav" id="8_hjvlj"]
+[ext_resource type="AudioStream" uid="uid://ddqk2jwn88mke" path="res://Assets/OST/APZX_CyberMower/16_Synth8.wav" id="9_k6205"]
+[ext_resource type="AudioStream" uid="uid://cdgl72jtca4w7" path="res://Assets/OST/APZX_CyberMower/17_SFX.wav" id="10_d27a3"]
+[ext_resource type="AudioStream" uid="uid://knpxrwg1nj1" path="res://Assets/OST/APZX_CyberMower/03_HiHat.wav" id="11_5bv0f"]
+[ext_resource type="AudioStream" uid="uid://uaa8dr7siy0p" path="res://Assets/OST/APZX_CyberMower/04_Shaker.wav" id="12_cikqg"]
+[ext_resource type="AudioStream" uid="uid://dotveve5fbdtb" path="res://Assets/OST/APZX_CyberMower/05_Percussion1.wav" id="13_0xhbs"]
+[ext_resource type="AudioStream" uid="uid://cy17ek8jyiyqe" path="res://Assets/OST/APZX_CyberMower/06_Percussion2.wav" id="14_2pqj8"]
+[ext_resource type="AudioStream" uid="uid://w58unamavm41" path="res://Assets/OST/APZX_CyberMower/07_Percussion3.wav" id="15_j16s3"]
+[ext_resource type="AudioStream" uid="uid://j6ec1yvw8ebe" path="res://Assets/OST/APZX_CyberMower/08_Bass.wav" id="16_me2bm"]
+[ext_resource type="AudioStream" uid="uid://csa0ih25lm4o0" path="res://Assets/OST/APZX_CyberMower/09_Synth1.wav" id="17_162n1"]
+[ext_resource type="AudioStream" uid="uid://h462gx2ttm2e" path="res://Assets/OST/APZX_CyberMower/10_Synth2.wav" id="18_7h8ci"]
+
+[sub_resource type="AudioStreamSynchronized" id="AudioStreamSynchronized_rycaa"]
+stream_count = 18
+stream_0/stream = ExtResource("2_hvlae")
+stream_0/volume = 0.0
+stream_1/stream = ExtResource("3_i2qv8")
+stream_1/volume = 0.0
+stream_2/stream = ExtResource("11_5bv0f")
+stream_2/volume = 0.0
+stream_3/stream = ExtResource("12_cikqg")
+stream_3/volume = 0.0
+stream_4/stream = ExtResource("13_0xhbs")
+stream_4/volume = 0.0
+stream_5/stream = ExtResource("14_2pqj8")
+stream_5/volume = 0.0
+stream_6/stream = ExtResource("15_j16s3")
+stream_6/volume = 0.0
+stream_7/stream = ExtResource("16_me2bm")
+stream_7/volume = 0.0
+stream_8/stream = ExtResource("17_162n1")
+stream_8/volume = 0.0
+stream_9/stream = ExtResource("18_7h8ci")
+stream_9/volume = 0.0
+stream_10/stream = ExtResource("4_drhjo")
+stream_10/volume = 0.0
+stream_11/volume = 0.0
+stream_12/stream = ExtResource("5_nigcr")
+stream_12/volume = 0.0
+stream_13/stream = ExtResource("6_e5ygq")
+stream_13/volume = 0.0
+stream_14/stream = ExtResource("7_30ml0")
+stream_14/volume = 0.0
+stream_15/stream = ExtResource("8_hjvlj")
+stream_15/volume = 0.0
+stream_16/stream = ExtResource("9_k6205")
+stream_16/volume = 0.0
+stream_17/stream = ExtResource("10_d27a3")
+stream_17/volume = 0.0
+
+[sub_resource type="SystemFont" id="SystemFont_h2g43"]
+
+[sub_resource type="Theme" id="Theme_lynon"]
+default_font = SubResource("SystemFont_h2g43")
+default_font_size = 25
+
+[sub_resource type="LabelSettings" id="LabelSettings_v17kn"]
+line_spacing = 15.0
+
+[sub_resource type="LabelSettings" id="LabelSettings_tc0qu"]
+font_size = 30
+
+[node name="Test_synchronized_2" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_era1x")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = SubResource("AudioStreamSynchronized_rycaa")
+
+[node name="GridContainer" type="GridContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -134.0
+offset_top = -168.0
+offset_right = 134.0
+offset_bottom = 168.0
+grow_horizontal = 2
+grow_vertical = 2
+columns = 4
+
+[node name="layer_0" type="Button" parent="GridContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+
+[node name="layer_1" type="Button" parent="GridContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+
+[node name="layer_2" type="Button" parent="GridContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+
+[node name="layer_3" type="Button" parent="GridContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+
+[node name="layer_4" type="Button" parent="GridContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+
+[node name="layer_5" type="Button" parent="GridContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+
+[node name="layer_6" type="Button" parent="GridContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+
+[node name="layer_7" type="Button" parent="GridContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+
+[node name="layer_8" type="Button" parent="GridContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+
+[node name="layer_9" type="Button" parent="GridContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+
+[node name="layer_10" type="Button" parent="GridContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+
+[node name="layer_11" type="Button" parent="GridContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+
+[node name="layer_12" type="Button" parent="GridContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+
+[node name="layer_13" type="Button" parent="GridContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+
+[node name="layer_14" type="Button" parent="GridContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+
+[node name="layer_15" type="Button" parent="GridContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+
+[node name="layer_16" type="Button" parent="GridContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+
+[node name="layer_17" type="Button" parent="GridContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+
+[node name="GridContainer2" type="GridContainer" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -133.5
+offset_top = -57.0
+offset_right = 133.5
+grow_horizontal = 2
+grow_vertical = 0
+columns = 4
+
+[node name="play" type="Button" parent="GridContainer2"]
+layout_mode = 2
+theme = SubResource("Theme_lynon")
+text = "PLAY"
+
+[node name="pause" type="Button" parent="GridContainer2"]
+layout_mode = 2
+theme = SubResource("Theme_lynon")
+text = "PAUSE"
+
+[node name="stop" type="Button" parent="GridContainer2"]
+layout_mode = 2
+theme = SubResource("Theme_lynon")
+text = "STOP"
+
+[node name="close" type="Button" parent="GridContainer2"]
+layout_mode = 2
+theme = SubResource("Theme_lynon")
+text = "CLOSE"
+
+[node name="VSlider" type="VSlider" parent="."]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -183.0
+offset_top = -232.0
+offset_bottom = 232.0
+grow_horizontal = 0
+grow_vertical = 2
+max_value = 1.0
+step = 0.1
+value = 0.4
+
+[node name="Label" type="Label" parent="."]
+offset_left = 1029.0
+offset_top = 591.0
+offset_right = 1096.0
+offset_bottom = 614.0
+text = "VOLUME"
+
+[node name="Label2" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -33.5
+offset_top = 55.0
+offset_right = 33.5
+offset_bottom = 78.0
+grow_horizontal = 2
+label_settings = SubResource("LabelSettings_v17kn")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label3" type="Label" parent="."]
+offset_left = 56.0
+offset_top = 91.0
+offset_right = 305.0
+offset_bottom = 219.0
+text = "Habilitar cada
+capa de audio"
+label_settings = SubResource("LabelSettings_tc0qu")
+
+[node name="prev" type="Button" parent="."]
+layout_mode = 2
+offset_left = 56.0
+offset_top = 224.0
+offset_right = 124.0
+offset_bottom = 267.0
+theme = SubResource("Theme_lynon")
+text = "PREV"
+
+[connection signal="button_down" from="GridContainer/layer_0" to="." method="_on_layer_0_button_down"]
+[connection signal="button_down" from="GridContainer/layer_1" to="." method="_on_layer_1_button_down"]
+[connection signal="button_down" from="GridContainer/layer_2" to="." method="_on_layer_2_button_down"]
+[connection signal="button_down" from="GridContainer/layer_3" to="." method="_on_layer_3_button_down"]
+[connection signal="button_down" from="GridContainer/layer_4" to="." method="_on_layer_4_button_down"]
+[connection signal="button_down" from="GridContainer/layer_5" to="." method="_on_layer_5_button_down"]
+[connection signal="button_down" from="GridContainer/layer_6" to="." method="_on_layer_6_button_down"]
+[connection signal="button_down" from="GridContainer/layer_7" to="." method="_on_layer_7_button_down"]
+[connection signal="button_down" from="GridContainer/layer_8" to="." method="_on_layer_8_button_down"]
+[connection signal="button_down" from="GridContainer/layer_9" to="." method="_on_layer_9_button_down"]
+[connection signal="button_down" from="GridContainer/layer_10" to="." method="_on_layer_10_button_down"]
+[connection signal="button_down" from="GridContainer/layer_11" to="." method="_on_layer_11_button_down"]
+[connection signal="button_down" from="GridContainer/layer_12" to="." method="_on_layer_12_button_down"]
+[connection signal="button_down" from="GridContainer/layer_13" to="." method="_on_layer_13_button_down"]
+[connection signal="button_down" from="GridContainer/layer_14" to="." method="_on_layer_14_button_down"]
+[connection signal="button_down" from="GridContainer/layer_15" to="." method="_on_layer_15_button_down"]
+[connection signal="button_down" from="GridContainer/layer_16" to="." method="_on_layer_16_button_down"]
+[connection signal="button_down" from="GridContainer/layer_17" to="." method="_on_layer_17_button_down"]
+[connection signal="button_down" from="GridContainer2/play" to="." method="_on_play_button_down"]
+[connection signal="button_down" from="GridContainer2/pause" to="." method="_on_pause_button_down"]
+[connection signal="button_down" from="GridContainer2/stop" to="." method="_on_stop_button_down"]
+[connection signal="pressed" from="GridContainer2/close" to="." method="_on_close_pressed"]
+[connection signal="value_changed" from="VSlider" to="." method="_on_v_slider_value_changed"]
+[connection signal="button_down" from="prev" to="." method="_on_prev_button_down"]

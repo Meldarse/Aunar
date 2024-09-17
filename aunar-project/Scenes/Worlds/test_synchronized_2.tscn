@@ -237,6 +237,7 @@ step = 0.1
 value = 0.4
 
 [node name="Label" type="Label" parent="VSlider"]
+layout_mode = 0
 offset_left = 60.0
 offset_top = 499.0
 offset_right = 127.0
@@ -258,6 +259,7 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="Label3" type="Label" parent="."]
+layout_mode = 0
 offset_left = 56.0
 offset_top = 91.0
 offset_right = 305.0

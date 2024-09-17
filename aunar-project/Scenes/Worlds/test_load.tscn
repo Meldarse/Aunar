@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://d2dy62i6kqmqr"]
+
+[ext_resource type="Script" path="res://Scripts/Worlds/test_load.gd" id="1_js2vk"]
+
+[sub_resource type="AudioStreamSynchronized" id="AudioStreamSynchronized_axtjj"]
+
+[node name="Test_load" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_js2vk")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = SubResource("AudioStreamSynchronized_axtjj")

@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://uaa8dr7siy0p"
-path="res://.godot/imported/04_Shaker.wav-48d1a1b7f04f21e4af4e452ae41ea118.sample"
+path="res://.godot/imported/04_Shaker.wav-d822a8c132d7c75d4b584fd3353b7a79.sample"
 
 [deps]
 
-source_file="res://Assets/OST/APZX_CyberMower/04_Shaker.wav"
-dest_files=["res://.godot/imported/04_Shaker.wav-48d1a1b7f04f21e4af4e452ae41ea118.sample"]
+source_file="res://Assets/OST/S_APZX_CyberMower/04_Shaker.wav"
+dest_files=["res://.godot/imported/04_Shaker.wav-d822a8c132d7c75d4b584fd3353b7a79.sample"]
 
 [params]
 

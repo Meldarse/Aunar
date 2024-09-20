@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://nghxk0jdfole"
-path="res://.godot/imported/01_Kick.wav-a935db3896ab5d460d89f52412de72a6.sample"
+path="res://.godot/imported/01_Kick.wav-aa7a3b6e32b0aa08db346401eb519c07.sample"
 
 [deps]
 
-source_file="res://Assets/OST/APZX_CyberMower/01_Kick.wav"
-dest_files=["res://.godot/imported/01_Kick.wav-a935db3896ab5d460d89f52412de72a6.sample"]
+source_file="res://Assets/OST/S_APZX_CyberMower/01_Kick.wav"
+dest_files=["res://.godot/imported/01_Kick.wav-aa7a3b6e32b0aa08db346401eb519c07.sample"]
 
 [params]
 

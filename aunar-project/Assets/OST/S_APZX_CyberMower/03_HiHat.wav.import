@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://knpxrwg1nj1"
-path="res://.godot/imported/03_HiHat.wav-969918ef2589356bac39be3bfafaad6b.sample"
+path="res://.godot/imported/03_HiHat.wav-561c55d02986ad8a9ea5d7c1590d3a60.sample"
 
 [deps]
 
-source_file="res://Assets/OST/APZX_CyberMower/03_HiHat.wav"
-dest_files=["res://.godot/imported/03_HiHat.wav-969918ef2589356bac39be3bfafaad6b.sample"]
+source_file="res://Assets/OST/S_APZX_CyberMower/03_HiHat.wav"
+dest_files=["res://.godot/imported/03_HiHat.wav-561c55d02986ad8a9ea5d7c1590d3a60.sample"]
 
 [params]
 

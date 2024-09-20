@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://w58unamavm41"
-path="res://.godot/imported/07_Percussion3.wav-c8e3ddcee8c85f911b4afee7a76ee719.sample"
+path="res://.godot/imported/07_Percussion3.wav-c988fc7076ffb866cd13f25a3e251b04.sample"
 
 [deps]
 
-source_file="res://Assets/OST/APZX_CyberMower/07_Percussion3.wav"
-dest_files=["res://.godot/imported/07_Percussion3.wav-c8e3ddcee8c85f911b4afee7a76ee719.sample"]
+source_file="res://Assets/OST/S_APZX_CyberMower/07_Percussion3.wav"
+dest_files=["res://.godot/imported/07_Percussion3.wav-c988fc7076ffb866cd13f25a3e251b04.sample"]
 
 [params]
 

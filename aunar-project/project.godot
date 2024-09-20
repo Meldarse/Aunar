@@ -23,6 +23,7 @@ window/vsync/vsync_mode=0
 
 folder_colors={
 "res://Assets/": "red",
+"res://Aunar_template/": "purple",
 "res://Scenes/": "yellow",
 "res://Scripts/": "blue"
 }

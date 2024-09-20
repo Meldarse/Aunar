@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://mb83j6yuelwg"
-path="res://.godot/imported/13_Synth5.wav-b884a8144539d0f0a3a1493b74c66f44.sample"
+path="res://.godot/imported/13_Synth5.wav-d58693064b5ca69ce02601879cb2fe87.sample"
 
 [deps]
 
-source_file="res://Assets/OST/APZX_CyberMower/13_Synth5.wav"
-dest_files=["res://.godot/imported/13_Synth5.wav-b884a8144539d0f0a3a1493b74c66f44.sample"]
+source_file="res://Assets/OST/S_APZX_CyberMower/13_Synth5.wav"
+dest_files=["res://.godot/imported/13_Synth5.wav-d58693064b5ca69ce02601879cb2fe87.sample"]
 
 [params]
 

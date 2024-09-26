@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Aunar-project"
-run/main_scene="res://Scenes/Worlds/test_synchronized_1.tscn"
+run/main_scene="res://Scenes/Worlds/test_load.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
 
